@@ -1,0 +1,133 @@
+.results-container {
+  height: 90vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .results-container {
+    height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.results-card-container {
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 230px;
+  height: 170px;
+}
+@media (min-width: 768px) {
+  .img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+.result-heading {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #475569;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.time-taken-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #334155;
+}
+.time-number {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #164687;
+  margin-left: 9px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 45px;
+  margin-top: 0px;
+}
+
+.your-score-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #164687;
+}
+.score-number {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #044682;
+  margin-left: 9px;
+}
+
+.reattempt-button {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #164687;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .reattempt-button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+.timeup-para {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #64748b;
+  margin-top: 0px;
+}

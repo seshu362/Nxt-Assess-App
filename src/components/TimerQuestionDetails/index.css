@@ -1,0 +1,248 @@
+.timer-question-bg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .timer-question-bg-container {
+    margin-right: 20px;
+    width: 40%;
+    height: 100%;
+  }
+}
+
+.timmer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15%;
+  background-color: #475987;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (max-width: 767px) {
+  .timmer-container {
+    height: 5%;
+    margin-top: 15px;
+  }
+}
+
+.time-left-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #f8fafc;
+}
+
+.running-time {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #f8fafc;
+}
+
+.submit-question-bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .submit-question-bg-container {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 85vh;
+  }
+}
+
+.answered-unanswered-count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 110px;
+  background-color: #ffffff;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .answered-unanswered-count-container {
+    flex-direction: row;
+    height: 70px;
+    padding-right: 15px;
+  }
+}
+.answered-count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.answered-count-bg-color {
+  background-color: #7c599f;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answered-count-number {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f8fafc;
+}
+
+.answered-questions-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #496387;
+  margin-left: 15px;
+}
+
+.unanswered-count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.unanswered-count-bg-color {
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unanswered-count-number {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #64748b;
+}
+
+.unanswered-questions-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #496387;
+  margin-left: 15px;
+}
+
+.line {
+  width: 100%;
+  border: 2px solid #e2e8f0;
+  margin-bottom: 20px;
+}
+
+.numbers-question-bg-container-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  border: 2px solid #ffffff;
+}
+
+.question-heading {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #164687;
+}
+
+.question-progress-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+.li-question-progress-list {
+  list-style-type: none;
+}
+
+.question-progress-list-button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e2e8f0;
+  background-color: #fafbfe;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #64748b;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.attempted-question-progress-list-button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #7c599f;
+  background-color: #7c599f26;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #64748b;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-assessment-button {
+  width: 95%;
+  align-items: center;
+  height: 40px;
+  margin-top: 70px;
+
+  cursor: pointer;
+  border: 1px solid #164687;
+  outline: none;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #164687;
+}
+
+@media (max-width: 767px) {
+  .submit-assessment-button {
+    margin-top: 40px;
+  }
+}

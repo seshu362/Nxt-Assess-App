@@ -1,0 +1,50 @@
+.image-list {
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 0px;
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .image-list {
+    width: 40%;
+    margin-right: 40px;
+  }
+}
+
+.answer-img {
+  width: 150px;
+  height: 68px;
+}
+
+@media (min-width: 768px) {
+  .answer-img {
+    height: 78px;
+    width: 90%;
+  }
+}
+
+.active-answer-img {
+  width: 150px;
+  height: 68px;
+  border: 2px solid #263868;
+}
+
+@media (min-width: 768px) {
+  .active-answer-img {
+    height: 78px;
+    width: 90%;
+  }
+}
+
+.button-answer {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+}

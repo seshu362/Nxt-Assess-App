@@ -1,0 +1,125 @@
+.question-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 15px 0px rgba(218, 228, 250, 0.5);
+  background-color: #ffffff;
+  order: 2;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .question-container {
+    width: 60%;
+    margin-right: 20px;
+    justify-content: space-between;
+    order: 0;
+  }
+}
+
+.question-name {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #164687;
+}
+
+.options-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .options-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.image-options-list-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  flex-wrap: nowrap;
+}
+
+@media (min-width: 768px) {
+  .image-options-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.nxt-btn-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.single-option-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  height: 40vh;
+}
+
+@media (min-width: 768px) {
+  .single-option-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.single-note-container {
+  width: 335px;
+  height: 52px;
+  padding: 12px 0px 12px 24px;
+  gap: 0px;
+  border-radius: 13px;
+  opacity: 0px;
+  background-color: #fef3c7;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .single-note-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+}
+
+.alert-text {
+  font-family: 'Roboto';
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #d97706;
+}
+.next-btn {
+  padding: 10px;
+  background-color: #164687;
+  border-style: solid;
+  border-color: #f1f5f9;
+  border-width: 2px;
+  border-radius: 8px;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 120px;
+  align-self: flex-end;
+  cursor: pointer;
+}
